@@ -1376,7 +1376,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4bfcd6;
+  background: #983d4b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2757,6 +2757,22 @@ article .post-body details[open]>summary::marker {
 }
 .site-author-image:hover {
   transform: rotateZ(1080deg);
+}
+.footer-banner {
+  width: 100%;
+  color: #fdf7e3;
+  background: #000036;
+}
+.footer-banner h1 {
+  font-family: "Cascadia Code", consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+  font-weight: normal;
+  font-style: italic;
+}
+@media (prefers-color-scheme: dark) {
+  .footer-banner {
+    color: #000036;
+    background: #fdf7e3;
+  }
 }
 .pace .pace-progress {
   background: #3522dd !important;
