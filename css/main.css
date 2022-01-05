@@ -1376,7 +1376,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #983d4b;
+  background: #d7bda6;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2760,6 +2760,9 @@ article .post-body details[open]>summary::marker {
 }
 .footer-banner {
   width: 100%;
+  padding-top: 12.8px;
+  padding-bottom: 12.8px;
+  margin: 39px 0;
   color: #fdf7e3;
   background: #000036;
 }
